@@ -1,0 +1,139 @@
+.banner .commonbanner .projectdetailbanner .patti {
+    margin-left: 45%;
+}
+
+.imgdataimg{
+    padding: 10px;
+    height: 100%;
+    width: 100%;
+}
+
+.mixblog{
+    background-color: var(--white);
+}
+
+.mixblog .container {
+    display: flex;
+}
+
+.leftblogfather {
+    display: flex;
+}
+
+/* ===================      RIGHTSIDE OF BLOG   =================== */
+.search {
+    height: auto;
+    width: 100%;
+    background-color: var(--white);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.searchinput {
+    border-color: var(--gray);
+    border: 1px solid;
+    height: 50px;
+    width: 90%;
+    margin-top: 10px;
+    padding-left: 20px;
+    margin: 10px;
+}
+
+.searchinput:focus {
+    outline: none;
+}
+
+.mixblog .container .col-4 {
+    background-color: var(--white);
+}
+
+.rightbloghead {
+    margin: 20px 0;
+    text-transform: capitalize;
+    border-bottom: 1px gray solid;
+}
+
+.rightbloghead h3 {
+    padding: 10px;
+}
+
+.imganddata {
+    display: flex;
+}
+
+.imganddata img {
+    /* margin: 5px 0; */
+    height: 90px;
+    width: 90px;
+
+}
+
+.imgdatap1 {
+    font-size: 12px;
+    color: var(--gray);
+    display: block;
+}
+
+.imgdatap2 {
+    margin-left: 10px;
+    margin-top: 16px;
+    font-weight: 700;
+    color: var(--black);
+}
+
+.rightblogul {
+    list-style: square;
+}
+
+.rightblogli {
+    margin-left: 20px;
+    text-transform: capitalize;
+    margin: 10px 20px;
+    transition: all 0.5s;
+}
+
+.rightblogli:hover {
+    color: var(--primary-color);
+}
+
+
+.rightblogul li ::before {
+    content: "";
+    color: blue;
+}
+
+.smallbox {
+    transition: all 0.5s;
+    display: flex;
+    align-items: center;
+    width: auto;
+    height: 30px;
+    background-color: var(--white);
+    margin: 2px;
+    border: 1px gray dashed;
+}
+
+.tagsp {
+    padding: 10px;
+}
+
+.tagsg1,
+.tagsg2 {
+    display: flex;
+}
+
+.on{
+    color: var(--gray);
+}
+
+.smallbox:hover {
+    background-color: var(--primary-color);
+    color: var(--white);
+}
+.rblogdata a{
+    color: var(--black);
+}
+.rightblogul p{
+    display: inline-block;
+}

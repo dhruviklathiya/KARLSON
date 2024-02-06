@@ -1,0 +1,191 @@
+.pricing
+{
+    margin-top: 500px;
+    background-color: var(--bg);
+    padding-bottom: 100px;
+}
+
+.pricing .container 
+{
+    display: flex;
+    justify-content: center;
+}
+
+.pricing .container .commonhead 
+{
+    display: block;
+}
+
+
+.pricing .container .commonhead h3
+{
+    text-align: center;
+}
+.pricing .container .commonhead p 
+{
+    text-align: center;
+}
+
+.pricing .container .commonhead .pricingp1
+{
+    font-size: 16px;
+    color: var(--gray);
+    line-height: 31px;
+}
+
+
+
+/*  PART 2 */
+
+
+.pricing .container .pricecardgroup
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.pricing .container .pricingcard
+{
+background-color: var(--white);
+/* height: 650px; */
+width: 400px;
+margin: 15px;
+border-radius: 10px 10px 10px 10px;
+}
+
+.pricing .container .pricingcard:hover
+{
+    transition: all 0.5s;
+    transform: translateY(-10px);
+    box-shadow:  0 10px 30px rgb(37, 36, 36);
+    
+}
+
+
+
+/* =============== TITLE ======================== */
+
+
+
+.pricing .container .pricecardgroup .col-4 .title 
+{
+    height: 105px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    color: var(--white);
+    text-transform: capitalize;
+    border-radius: 10px 10px 0 0 ;
+}
+
+.pricing .container .pricecardgroup .col-4 .basic1   
+{
+    
+    background-color: var(--primary-color) ;
+} 
+.pricing .container .pricecardgroup .col-4  .basic2
+{
+    background-color: #fc6765 ;
+} 
+.pricing .container .pricecardgroup .col-4  .basic3
+{
+    background-color: #ffa143 ;
+} 
+
+/* =============== Price ======================== */
+
+.pricing .container .pricecardgroup .col-4 .price
+{
+    height: 130px;
+    font-size: 40px;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px #eeeeee solid;
+    margin-bottom: 50px;
+} 
+
+
+/* =============== include ======================== */
+
+.include
+{
+    border-bottom: 1px #eeeeee solid;
+
+}
+
+.include1
+{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    color: var(--gray);
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.include1 .fa-check
+{
+    font-size: 20px;
+    color: #abc74f;    
+}
+
+.include1 .fa-xmark
+{
+    font-size: 20px;
+    color: #e55252;    
+}
+
+
+
+.start
+{
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    background-color: var(--white);
+    border-radius: 0 0 10px  10px;   
+}
+.priceanchor
+{
+    text-transform: capitalize;
+    padding-top: 50px;
+    
+}
+
+.a1
+{
+    color: var(--primary-color);
+}
+
+.a2 
+{
+    color: #fc6765;
+}
+
+.a3
+{
+    color: #ffa143;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

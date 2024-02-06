@@ -1,0 +1,136 @@
+.box6 {
+    background-color: var(--white);    
+}
+
+.box6 .container {
+    display: flex;
+    /* justify-content: space-around; */
+    flex-wrap: wrap;
+}
+
+.box6 .container .commonhead {
+    min-width: 100%;
+}
+
+.box6 .container .commonhead h3 {
+    display: block;
+    text-align: center;
+    margin: 100px auto 0px;
+}
+
+.b6i {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    display: block;
+    font-size: 40px;
+    text-align: center;
+}
+
+.b6p
+{
+    font-weight: 700;
+    text-transform: capitalize;
+    text-align: center;
+}
+
+.bb6 {
+    
+
+    /* display: flex; */
+    /* align-items: center; */
+    height: 120px;
+    width: 210px;
+    /* margin-bottom: 100px; */
+    margin-top: 80px;
+}
+
+
+
+
+
+
+
+
+
+.b_1 {
+    background-color: var(--primary-color);
+    color: var(--white);
+    box-shadow: -5px -5px 5px 5px #f9f9fc,
+        5px 5px 5px 5px #f9f9fc;
+}
+
+
+.b_2 {
+    transition: all 0.5s;
+
+    background-color: var(--white);
+    box-shadow: -5px -5px 5px 5px #f9f9fc,
+    5px 5px 5px 5px #f9f9fc;
+}
+
+.b_2:hover {
+    background-color: var(--primary-color);
+    color:var(--white);
+    
+
+}
+
+.b_3 {
+    transition: all 0.5s;
+
+    background-color: var(--white);
+    box-shadow: -5px -5px 5px 5px #f9f9fc,
+    5px 5px 5px 5px #f9f9fc;
+}
+
+.b_3:hover {
+    background-color: var(--primary-color);
+    color:var(--white);
+    
+
+}
+
+.b_4 {
+    transition: all 0.5s;
+
+    background-color: var(--white);
+    box-shadow: -5px -5px 5px 5px #f9f9fc,
+    5px 5px 5px 5px #f9f9fc;
+}
+
+.b_4:hover {
+    background-color: var(--primary-color);
+    color:var(--white);
+    
+
+}
+
+.b_5 {
+    transition: all 0.5s;
+
+    background-color: var(--white);
+    box-shadow: -5px -5px 5px 5px #f9f9fc,
+    5px 5px 5px 5px #f9f9fc;
+}
+
+.b_5:hover {
+    background-color: var(--primary-color);
+    color:var(--white);
+    
+
+}
+
+.b_6 {
+    transition: all 0.5s;
+
+    background-color: var(--white);
+    box-shadow: -5px -5px 5px 5px #f9f9fc,
+    5px 5px 5px 5px #f9f9fc;
+}
+
+.b_6:hover {
+    background-color: var(--primary-color);
+    color:var(--white);
+    
+
+}

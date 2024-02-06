@@ -1,0 +1,179 @@
+/* ==================   BOX 4 BUT 3  FROM ABOUT US  =====================*/
+
+.box4
+{
+    background-color: var(--bg);
+    padding: 100px 0;
+}
+
+.b4
+{
+    transition: all 0.5s;
+    border-radius: 10px;
+    width: 23%;
+    height: 250px;
+    background-color: var(--white);
+}
+
+.b4:hover{
+    transform: translateY(-10px);
+}
+
+.b4div1layer1
+{
+    display: flex;
+    justify-content: center;
+}
+
+.b4div1i{
+    transition: all 0.5s;
+    color: var(--primary-color);
+    font-size: 40px;
+    text-align: center;
+    margin-top: 20px;
+    background-color: var(--bg);
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    padding: 10px;
+}
+
+.b4div1layer2p
+{   
+    margin: 20px 0;
+    text-align: center;
+    font-size: 50px;
+    font-weight: 900;
+}
+
+.b4div1layer3p
+{
+    text-transform: capitalize;
+    text-align: center;
+    color: var(--gray);
+}
+
+/* ==================   BOX 4 BUT 3  NEW  =====================*/
+
+.box3{
+    background-color: var(--white);
+}
+
+.box3 .container .b4{
+    box-shadow: 5px 5px 25px black;
+    border-radius: 5px;
+}
+
+.box3 .container .b4{
+    width: 31%;
+}
+
+.contactcardp2{
+    margin: 20px 0;
+    text-transform: capitalize;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.contactcardp3 
+{
+    /* text-transform: capitalize; */
+    text-align: center;
+    color: var(--gray);
+    line-height: 35px;
+    transition: all 0.5s;
+}
+
+.contactcardp3:hover {
+    color: var(--primary-color);
+}
+
+
+.contactcardp3span{
+    display: block;
+}
+
+
+
+.b3:hover .b4div1i{
+    color: var(--white);
+    background-color: var(--primary-color);
+}
+
+/* ==================   DROP MESSAGE  =====================*/
+
+.dropmessage{
+    padding: 50px 0 80px 0;
+}
+
+.dropmessage .commonhead h3 {
+    text-align: center;
+}
+
+.dropmessage .commonhead p {
+    text-align: center;
+}
+
+.dropmessagechpspan{
+    text-transform: capitalize;
+}
+
+.graymaxwidth{
+    margin: 20px auto 80px;
+    max-width: 560px;
+    color: var(--gray);
+    font-size: 16px;
+    text-align: center;
+}
+
+.cpformlayer1father,
+.cpformlayer2father,
+.cpformlayer3father{
+    display: flex;
+    margin-bottom: 15px;
+}
+
+.cpformlayer1father input,.cpformlayer2father input{
+    border: none;
+    background-color: var(--white);
+    height: 35px;
+    font-size: 16px;
+    color: var(--black);
+    width: 50%;
+    margin-right: 10px;
+    padding: 10px;
+    box-shadow: 0 5px 28.5px 1.5px rgba(149, 152, 200, 0.2);
+
+}
+
+.cpformlayer1father input,.cpformlayer2father input::placeholder {
+
+    /* letter-spacing: 3px; */
+    font-weight: 500;
+    color: var(--gray);
+}
+
+.cpformlayer1father input,.cpformlayer2father input,:focus {
+    outline: none;
+}
+.cpformlayer3father textarea{
+    border: none;
+    background-color: var(--white);
+    height: auto;
+    width: 100%;
+    font-size: 16px;
+    color: var(--black);
+    margin-right: 10px;
+    padding: 10px;
+    box-shadow: 0 5px 28.5px 1.5px rgba(149, 152, 200, 0.2);
+
+}
+.cpformlayer3father textarea::placeholder{
+    font-weight: 400;
+    color: var(--gray);
+}
+.cpformlayer3father textarea:focus{
+    outline: none;
+    
+}

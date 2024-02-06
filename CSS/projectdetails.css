@@ -1,0 +1,66 @@
+.projectdetailbanner
+{
+    background-image: url("../IMAGES/projectdetailbanner-bg1.jpg");
+}
+
+.prodetailimage{
+    margin: 50px 0 800px;
+}
+
+.prodetailimage .container .col-6{
+    margin-right: 20px;
+    overflow: hidden;
+}
+
+.prodetailimage .container .col-6 img:hover{
+    transition: all 0.5s;
+    transform: rotate(5deg) scale(1.3);
+}
+
+
+.prodetaildata{
+    margin-top: 50px;
+    padding: 5%;
+}
+
+.prodetaildata h3{
+    font-size: 26px;
+    text-transform: capitalize;
+}
+
+.prodetailp1{
+    color: var(--gray);
+    display: block;
+    line-height: 30px;
+    margin-top: 10px;
+}
+
+.prodetailimage .prodetaildata .wcu2 i{
+    color: var(--primary-color);
+}
+.prodetailimage .prodetaildata .wcu6{
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.prodetaillast{
+    display: flex;
+}
+
+.borderlesscard{
+    height: 100px;
+    width: 250px;
+    margin-right: 10px;
+}
+
+.borderlesscard .wcu2{
+    margin-top: 5px;
+}
+
+.borderlesscard i{
+    color: var(--gray);
+}
+.borderlesscard i:hover{
+    transform: translateY(-5px);
+    color: var(--primary-color);
+}

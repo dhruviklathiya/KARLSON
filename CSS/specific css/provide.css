@@ -1,0 +1,135 @@
+/* ===========================================
+===========================================
+=========================================== PROVIDE 
+===========================================
+=========================================== */
+
+.provide{
+    height: 1080px;
+    background-color: var(--bg);
+}
+
+.provide .container
+{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.provide .container .commonhead{
+    min-width: 100%;
+    margin-top: 100px;
+    
+}
+
+.provide .container .commonhead h3{
+    text-align: center;
+    line-height: 50px;
+} 
+.provide .container .commonhead p{
+    text-align: center;
+    max-width: 532px;
+    margin-left: 400px;
+}
+
+
+
+.provide .container .providecardgroup li
+{
+    list-style: none;
+}
+
+
+.provide .container .providecard {
+    margin-bottom: 50px;
+    margin-top: 50px;
+    height: 270px;
+    width: 400px;
+    background-color: var(--white);
+    padding: 15px;
+
+}
+
+.provide .container .providecardgroup .providecard i
+{
+    /* display: block; */
+    font-size: 60px;
+    margin-bottom: 10px;
+    padding: 20px 0 15px 30px;
+}
+.provide .container .providecardgroup .providecard .aa2
+{
+    margin-bottom: 20px;
+    font-size: 24px;
+   font-weight: 600;
+}
+.provide .container .providecardgroup .providecard .aa3
+{
+    color: var(--gray);
+    max-width: 400px;
+    font-size: 16px;
+    line-height: 30px;
+    transition: all 0.5s;
+}
+/* .provide .container .providecardgroup .providecard .aa3:hover
+{
+    color: var(--white);
+
+} */
+
+.pii1
+{
+    color: var(--red);
+}
+.pii2
+{
+    color: green;
+}
+.pii3
+{
+    color: var(--rose) ;
+}
+.pii4
+{
+    color: purple;
+}
+.pii5
+{
+    color: maroon;
+}
+.pii6
+{
+    color: orange;
+}
+
+.provide .container .providecard:hover
+{
+    color: var(--white);
+    transition: all 1s;
+    box-shadow: inset 600px 0 0 0 var(--primary-color);
+    transform: translateY(-10px) ;
+    /* box-shadow: -5px -5px 5px 5px var(--white) ,
+     5px 5px 5px 5px var(--white) ; */
+}
+
+.provide .container .providecard:hover i
+{
+    transform: rotate(360deg);
+    /* color: var(--white); */
+    transition: all 0.5s;
+    /* box-shadow: inset 600px 0 0 0 var(--primary-color); */
+    /* transform: translateY(-10px) ; */
+    /* box-shadow: -5px -5px 5px 5px var(--white) ,
+     5px 5px 5px 5px var(--white) ; */
+}
+
+.provide .container .providecard:hover .aa3
+{
+    /* transform: rotate(360deg); */
+    color: white;
+    /* color: var(--white); */
+    transition: all 1s;
+    /* box-shadow: inset 600px 0 0 0 var(--primary-color); */
+    /* transform: translateY(-10px) ; */
+    /* box-shadow: -5px -5px 5px 5px var(--white) ,
+     5px 5px 5px 5px var(--white) ; */
+}

@@ -1,0 +1,83 @@
+/* ===========================================
+===========================================
+=========================================== WHY CHO0OSE US
+===========================================
+=========================================== */
+
+
+.choose
+{
+    height: 800px;
+}
+
+.choose .container .col-6 
+{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    display: flex;
+    flex-wrap: wrap ;
+}
+
+.choose .container .col-6 .aa5
+{
+    display: flex;
+
+}
+.choose .container .col-6 .commonhead h3
+{
+    line-height: 5px;
+}
+
+.choose .container .col-6 .commonhead p
+{
+    max-width: 600px;
+    line-height: 50px;
+    margin-bottom: 10px;
+}
+
+.wcu1
+{
+    color: var(--gray);
+    line-height: 25px;
+    /* margin-bottom: 25px; */
+}
+
+.choose .container .col-6 i
+{
+    color: var(--primary-color);
+    /* margin: 10px 0; */
+}
+
+.wcu2
+{
+    color: var(--gray);
+    line-height: 25px;
+    max-width: 600px;
+}
+.wcu4
+{
+    color: var(--gray);
+    line-height: 25px;
+    max-width: 600px;
+}
+
+
+/* .explore .container .col-6 .commonhead{
+    display: flex;
+    justify-content: flex-start;
+
+} */
+
+/* .explore .container .col-6 .commonhead .data2 p
+{
+    margin-left: 0px;
+} */
+.wcu6
+
+{
+    margin-left: 10px;
+    display: inline-block;
+    font-size: 20px;
+    color: black;
+    text-transform: capitalize;
+}

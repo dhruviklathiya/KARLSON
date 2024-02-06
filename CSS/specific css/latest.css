@@ -1,0 +1,121 @@
+.latest
+{
+    background-color: var(--bg);
+    padding-bottom: 200px;
+}
+
+.latest .container 
+{
+    display: flex;
+    justify-content: center;
+}
+
+
+.latest .commonhead 
+{
+    display: block;
+    margin-bottom: 50px;
+}
+
+
+.latest  .commonhead h3
+{
+    text-align: center;
+}
+.latest  .commonhead p 
+{
+    text-align: center;
+}
+
+.gpp1
+{
+    text-transform: capitalize;
+}
+
+.latest .container .latestdivgroup
+{
+    display: flex;
+}
+.latest .container .latestdivgroup .latestdiv
+{
+    margin: 10px;
+    background-color: var(--white);
+    padding-bottom: 30px;
+    
+}
+
+.latestp1
+{
+    margin-left: 20px;
+    font-size: 16px;
+    color: var(--gray);
+    text-transform: capitalize;
+    margin-top: 20px;
+}
+
+.latestspan
+{
+    color: var(--rose);
+    text-transform: capitalize;
+}
+
+.latestp2
+{
+    margin-left: 20px;
+    margin-top: 20px;
+    font-size: 26px;
+    text-transform: capitalize;
+    font-weight: 600;
+}
+
+.latestp3
+{
+        margin-left: 20px;
+        margin-top: 20px;
+        color: var(--gray);
+        line-height: 30px;
+}
+
+.latest .container .latestdivgroup .latestdiv:hover
+{
+    box-shadow:  0 10px 30px rgb(37, 36, 36);
+    transition: all 0.5s;
+}
+
+.latestdiv img
+{
+    transition: all 0.5s;
+    display: block;
+}
+
+
+.latestdiv 
+{
+    overflow: hidden;
+}
+
+.latest .container .latestdivgroup .latestdiv:hover img
+{
+    transition: all 0.5s;
+    transform: rotate(1deg) scale(0.8);
+}
+
+
+.latest .container .latestdivgroup .latestdiv:hover .latestp1
+{
+    transition: all 1s;
+    transform: translateY(-60px);
+    
+}
+.latest .container .latestdivgroup .latestdiv:hover .latestp2
+{
+    transition: all 1s;
+    transform: translateY(-60px);
+}
+.latest .container .latestdivgroup .latestdiv:hover .latestp3
+{
+    transition: all 1s;
+    transform: translateY(-60px);
+}
+
+

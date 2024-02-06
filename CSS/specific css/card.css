@@ -1,0 +1,97 @@
+
+
+/* ===========================================
+===========================================
+=========================================== CARD 
+===========================================
+=========================================== */
+.precard{
+    /* display: flex; */
+    /* justify-content: space-around; */
+    padding: 10px;
+    
+}
+
+.card .container .col-4{
+    margin: 15px;
+    background-color: var(--bg);
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    transition: all 0.5s;
+}
+.card .container .col-4 i {
+    text-align: center;
+    font-size: 60px;
+    padding-top: 20px;
+    /* padding: auto; */
+    min-width: 300px;
+    
+}
+
+.card .container .col-4 h3{
+    color: black;
+    margin-top: 1px;
+    font-size: 26px;
+    display:block;
+    line-height: 50px;    
+    font-weight: 600;
+}
+
+.card .container .col-4 p{
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    max-width: 250px;
+    margin-bottom: 0px;
+    /* text-align: justify; */
+}
+
+.card .container .col-4 a 
+{
+    width: 100px;
+    height: 25px;
+    background-color: var(--white);
+    color: var(--primary-color);
+    border: 1px solid;
+    border-color: var(--primary-color);
+}
+
+.card .container .col-4 .btn:hover 
+{
+    background-color: var(--primary-color);
+    color: white;
+    
+}
+
+.ci1
+{
+    color: var(--rose);
+}
+.ci2
+{
+    color: var(--light-yellow) ;
+}
+.ci3
+{
+    color: var(--batli) ;
+}
+
+.card .container .col-4:hover
+{
+    /* height: 365px; */
+    background-color: var(--white);
+    box-shadow:  0 10px 30px rgb(37, 36, 36);   
+    transform: translateY(-20px);
+    /* box-shadow: inset 600px 0 0 0 coral; */
+    
+}
+
+.card .container .col-4:hover .get
+{
+    color: var(--white);
+    background-color: var(--primary-color);
+}
+

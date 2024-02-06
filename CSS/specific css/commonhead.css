@@ -1,0 +1,19 @@
+
+.commonhead h3
+{
+    text-transform: uppercase;
+    color: var(--primary-color);
+    font-size: 15px;
+    margin-bottom: 8px;
+    line-height: 72px;    
+    font-weight: 600;
+
+}
+.commonhead p{
+
+  
+    font-size: 40px;
+    font-weight: 700;
+    max-width: 560px;
+    /* margin-bottom: 55px; */
+}

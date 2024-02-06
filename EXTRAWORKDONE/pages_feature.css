@@ -1,0 +1,69 @@
+/* =====================================                BANNER              ======================================= */
+
+.commonbanner
+{
+    height: 50vh;
+    background-color: var(--bg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("../IMAGES/banner-bg2.jpg");
+    background-size: cover;
+}
+
+
+.commonbannerhead h2
+{
+    
+    /* margin-top: 100px; */
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;    
+    color: black;
+    text-transform: capitalize;
+}
+
+.patti
+{
+    width: 40px;
+    height: 3px;
+    background-color: var(--rose);
+    margin-left: 50px;
+    margin-bottom: 20px;
+}
+
+.bannerp1
+{
+    text-transform: capitalize;
+    display: inline-block;
+    font-size: 20px;
+    color: var(--gray);
+}
+.bannerp2
+{
+    display: inline-block;
+    font-size: 20px;
+    text-transform: capitalize;
+    color: var(--primary-color);
+
+
+}
+/* ========================     feature_6box    ====================================== */
+.feature_6box .container .commonhead{
+    min-width: 100%;
+    margin-top: 10px;
+    
+}
+
+
+.feature_6box .container .commonhead h3
+{   
+    text-align: center;
+    line-height: 50px;
+}
+
+.feature_6box .container .commonhead p{
+    text-align: center;
+    max-width: 532px;
+    margin-left: 400px;
+}

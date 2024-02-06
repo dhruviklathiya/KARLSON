@@ -1,0 +1,159 @@
+/* ===========================================
+===========================================
+=========================================== EXPLORE 
+===========================================
+=========================================== */
+
+/*   
+    .explore{
+        margin-top: 80px;
+    }
+
+    .explore .container .col-6{
+        padding: 20px;
+        flex-wrap: wrap;
+    }
+
+    .explore .container{
+        display: flex;
+        align-items: center;
+    }
+
+    .explore .container .col-6 .head .commonhead{
+        display: flex;
+        justify-content: flex-start;
+    
+    }
+
+    .explore .container .col-6 .commonhead h3{
+        font-size: 16px;    
+    }
+    .explore .container .col-6 .commonhead p{
+        margin-bottom: 10px;
+
+    }
+
+    .explore .container .col-6 .exploreinfo {
+        font-weight: 400;
+        line-height: 30px;
+        color: var(--gray);
+        display: block;
+    }
+    
+    /* .explore .container .col-6 .explorecheck
+    {
+           display: block; 
+        } 
+
+
+        .explore .container .col-6 .explorecheck .expcheck{
+            height: 50px;
+            width: 300px;
+            margin: 5px;
+            background-color: #fa7070;
+    
+        }
+        .explore .container .exp .col-6 .explorecheck ul{
+            
+            list-style: none;
+            /* display: flex; 
+            align-items: center;
+        }
+    
+        .explore .container .col-6 .explorecheck .expcheck i{
+            font-size: 30px;
+            margin: 9px 8px;
+            display: inline-block;
+                
+        }   
+    
+        .explore .container .col-6 .explorecheck .expcheck p{
+            display: inline-block;
+        }
+     */
+    
+    /* ===========================================
+===========================================
+=========================================== EXPLORE 
+===========================================
+=========================================== */
+
+.explore .container{
+    align-items: center;
+}
+
+
+.explore .container .exp .col-6 .head
+ {
+     display: flex;
+     justify-content: flex-end;
+}
+
+.explore .container 
+{
+    margin: 100px;
+}
+
+.explore .container .col-6  {
+    margin: 20px;
+   
+}
+
+.explore .container .explorecheck{
+display: flex;
+flex-wrap: wrap;
+
+}
+
+
+.explore .container .col-6 .explorecheck .expdiv i{
+    font-size: 30px;
+    padding: 9px 8px;
+    display: inline-block;
+    color: var(--white); 
+    transition: all 0.5s;
+    
+}   
+
+/* .explore .container .col-6 .explorecheck .expdiv i:hover
+{
+    font-size: 30px;
+    margin: 9px 8px;
+    display: inline-block;
+    color: var(--rose) ;    
+    
+}  */
+
+.explore .container .col-6 .explorecheck .expdiv p{
+    display: inline-block;
+}
+
+.expdiv
+{
+    background-color:  var(--bg);
+    height: 50px;
+    width: 285px;
+    margin: 10px;
+    border-radius: 5px;
+    transition: all 0.5s;
+}
+
+
+.expdiv:hover
+{
+    /* background-color: var(--primary-color); */
+    color: var(--white);
+    box-shadow: inset 300px 0 0 0 var(--primary-color);
+}
+
+
+
+.explore .container .explorecheck ul{
+    list-style: none;
+}
+
+.exploreinfo {
+    line-height: 32px;
+	font-size: 16px;
+	color: var(--gray);
+}

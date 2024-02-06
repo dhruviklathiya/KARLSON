@@ -1,0 +1,32 @@
+.gallery .container{
+    display: flex;
+    justify-content: center;
+    background-color: var(--white);
+}
+.gallery .container .commonhead h3{
+    text-align: center;
+    margin: 100px auto 0px ;
+
+}
+.gpp1 {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+
+}
+
+.galleryimg 
+{
+    margin: 10px;
+}
+
+.galleryimggroup
+{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.galleryimggroup{
+    margin: 5px;
+}

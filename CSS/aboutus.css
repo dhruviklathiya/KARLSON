@@ -1,0 +1,217 @@
+/* ================= BANNER ==================== */
+
+
+.commonbanner
+{
+    height: 50vh;
+    background-color: var(--bg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("../IMAGES/banner-bg1.jpg");
+    background-size: cover;
+}
+
+
+.commonbannerhead h2
+{
+    
+    /* margin-top: 100px; */
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;    
+    color: black;
+    text-transform: capitalize;
+}
+
+.patti
+{
+    width: 30px;
+    height: 3px;
+    background-color: var(--rose);
+    margin: 10px 0 20px 70px;    
+}
+
+.bannerp1
+{
+    text-transform: capitalize;
+    display: inline-block;
+    font-size: 20px;
+    color: var(--gray);
+}
+.bannerp2
+{
+    display: inline-block;
+    font-size: 20px;
+    text-transform: capitalize;
+    color: var(--primary-color);
+
+
+}
+
+/* ================= DYNAMIC ==================== */
+.dynamic
+{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.dynamic .container .col-5 img
+{
+    border-radius: 15px;
+}
+ 
+.dynamic .container .col-7
+{
+    margin-top: 50px;
+}
+
+
+.dynamicp1
+{
+    max-width: 600px;
+    color: var(--gray);
+    line-height: 30px;
+    margin-top: 20px    ;
+}
+.dynamicp2
+{
+    font-size: 20px;
+    text-transform: capitalize;
+    font-weight: 600;
+    margin: 10px 0;
+}
+.dynamicp3
+{
+    word-spacing: 5px;
+}
+
+/* ================= BOX4 ==================== */
+.box4
+{
+    background-color: var(--bg);
+    padding: 100px 0;
+}
+
+.b4
+{
+    transition: all 0.5s;
+    border-radius: 10px;
+    width: 23%;
+    height: 250px;
+    background-color: var(--white);
+}
+
+.b4:hover{
+    transform: translateY(-10px);
+}
+
+.b4div1layer1
+{
+    display: flex;
+    justify-content: center;
+}
+
+.b4div1i{
+    color: var(--primary-color);
+    font-size: 40px;
+    text-align: center;
+    margin-top: 20px;
+    background-color: var(--bg);
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    padding: 10px;
+}
+
+.b4div1layer2p
+{   
+    margin: 20px 0;
+    text-align: center;
+    font-size: 50px;
+    font-weight: 900;
+}
+
+.b4div1layer3p
+{
+    text-transform: capitalize;
+    text-align: center;
+    color: var(--gray);
+}
+
+/* ================= AUDIENCE ==================== */
+.audience
+{
+    padding: 100px 0;
+}
+
+.audiencep
+{
+    margin: 20px 0;
+}
+
+/* ================= MEMBER ==================== */
+
+
+.stylemember{
+    padding-top: 400px;
+    background-color: var(--white);
+}
+
+.stylemcard
+{
+    border-bottom: 1px #f7f7f7 solid;    
+    border-right: 1px #f7f7f7 solid;    
+    border-left: 1px #f7f7f7 solid;    
+}
+
+.stylelink
+{
+    left: 30%;
+}
+
+/* ================= ROCKET ==================== */
+.rocket{
+    padding: 100px 0;
+    background-color: var(--bg);
+}
+
+.rocket .container .subsname h3{
+    color: var(--primary-color);}
+
+.rocket .container .subsname p{
+    color: var(--black);
+    font-weight: 700;
+}
+
+
+.rocketsub input {
+    position: relative;
+    background-color: var(--white);
+    height: 70px;
+    width: 450px;
+    
+    /* margin-left: 50%; */
+    left: 15%;
+    /* bottom: 60%; */
+    /* border-radius: 150px; */
+    
+    border: none;
+    border-radius: 150px;
+    padding: 0 50px ;
+}
+
+
+.rocketbtn .rocketsubsbtn {
+    position: absolute;
+    border-radius: 50px;
+    width: 80px;
+    bottom: 50%;
+    left: 38%;
+    margin-left: 230px;
+    
+}
+
+.rocketsubscribe{
+    margin-top: 30px;
+}

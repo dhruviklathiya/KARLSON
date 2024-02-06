@@ -1,0 +1,53 @@
+.subscribe
+{
+    background-color: var(--bg);
+    height: 100vh;
+    position: relative;
+}
+
+
+.subscribe .container
+{
+    background-image: url("../IMAGES/subscribe-bg.jpg");
+    height: 450px;
+    background-color: rgba(0, 0, 255, 0.8);
+    background-size: cover;
+    background-blend-mode: color-burn;
+    flex-wrap: wrap;
+
+}
+
+.subsname h3
+{
+    display: block;
+    font-size: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    color: var(--white);
+    text-align: center;
+}
+
+.subsname p
+{
+    display: block;
+    font-size: 40px;
+    max-width: 600px;
+    text-align: center;    
+    color: var(--white);
+}
+ 
+.subscribe .container .subsname
+{
+    display: block;
+    margin: 70px auto;
+    min-width: 100%;
+}
+
+.subscribebutton
+{
+    
+    margin: auto;
+    background-color: var(--white);
+    height: 100px;
+    width: 600px;
+}

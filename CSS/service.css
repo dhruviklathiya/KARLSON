@@ -1,0 +1,23 @@
+/* ==================           =============================== */
+
+.servicebanner
+{
+    background-image: url("../IMAGES/servicebanner-bg2.jpg");
+}
+
+.commonh3{
+    font-weight: 800;
+    color: var(--black);
+    text-transform: capitalize;
+    font-size: 26px;
+    line-height: 100px;
+}
+
+.smmarketing .container .col-6 .plusul{
+    margin-top: 50px;
+}
+
+.smmarketing .container .col-6 .plusul li{
+    margin: 10px 0;
+}
+

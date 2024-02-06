@@ -1,0 +1,67 @@
+.partner
+{
+    background-color: var(--white);
+}
+
+.partner .container 
+{
+    display: flex;
+    justify-content: center;
+}
+
+
+.partner .commonhead 
+{
+    display: block;
+    margin-bottom: 50px;
+}
+
+
+.partner  .commonhead h3
+{
+    text-align: center;
+}
+.partner  .commonhead p 
+{
+    text-align: center;
+}
+
+/* .partner .container
+{
+    display: flex;
+    justify-content: space-between;
+    
+} */
+
+.bbb6
+{
+    display: flex;
+    justify-content: space-around;
+    background-color: var(--bg);
+    height: 90px;
+    width: 310px;
+    margin-bottom: 15px;
+    margin-right: 15px;
+    overflow: hidden;
+}
+
+.bbb6 img
+{
+    padding: 10px;
+    width: auto;
+    height: auto;
+    transition: all 0.5s;
+    
+} 
+
+.space
+{
+    margin-bottom: 70px;
+}
+
+
+.bbb6:hover img
+{
+    transition: all 0.5s;
+    transform: translate(0,200%);
+}

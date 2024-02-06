@@ -1,0 +1,15 @@
+/* ===========================================
+===========================================
+========================================= PRE CARD SECTION 
+===========================================
+=========================================== */
+
+.precard .container{
+    display: flex;
+    justify-content: center;
+    background-color: var(--white);
+}
+.precard .container .commonhead h3{
+    text-align: center;
+    margin: 100px auto 0px ;
+}

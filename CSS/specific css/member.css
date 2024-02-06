@@ -1,0 +1,126 @@
+
+.member{
+    height: 1080px;
+    background-color: var(--bg);
+}
+
+.member .container
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+.member .container .commonhead{
+    min-width: 100%;
+    margin-top: 100px;
+    
+}
+
+.member .container .commonhead h3{
+    text-align: center;
+    line-height: 50px;
+} 
+.member .container .commonhead p{
+    text-align: center;
+    max-width: 532px;
+    margin-left: 400px;
+    text-transform: capitalize;
+}
+
+.member .container .mctr
+{
+    display: flex;
+    flex-wrap: wrap;
+}
+.member .container .mctr .mcard
+{
+    height: auto ;
+    width: 400px ;
+    margin: 10px;
+    background-color: var(--white);
+}
+
+.member .container .mctr .mcard img
+{
+    transform: scale(1);
+    display: block;
+}
+
+.member .container .mctr .mcard:hover .mpp1
+{
+    color: var(--white);
+}
+.member .container .mctr .mcard:hover .mpp2
+{
+    color: var(--white);
+}
+
+.member .container .mctr .mcard:hover .mdata
+{
+    transition: all 1s;
+    background-color: var(--primary-color);
+}
+
+.member .container .mctr .mcard:hover img
+{
+    
+    transition: all 1s;
+    overflow: hidden;
+    transform: scale(1.2);
+}
+ 
+.mpp1
+{
+    color: black;
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 52px;
+    transition: all 0.5s;
+}
+
+
+.mpp2
+{
+
+    color: var(--primary-color);
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 72px;
+    transition: all 0.5s;
+
+}
+
+/*
+.mpp1:hover
+{
+    color: var(--white);
+}
+
+.mpp2:hover{
+    color: var(--white);
+}
+
+
+.mdata
+{
+    transition: all 0.5s;
+}
+
+.mdata:hover
+{
+
+    color: var(--white);
+    background-color: var(--primary-color);
+} */
+
+
+.mimg
+{
+    overflow: hidden;
+}
